@@ -28,3 +28,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest test.py
+    - name: TEST with special case
+      run: |
+        pytest test2.py
